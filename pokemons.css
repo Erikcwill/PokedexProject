@@ -1,0 +1,97 @@
+/*Animações para telas*/
+#linha-branca {
+	width: 436px;
+    height: 0px;
+    background: url(images/bola1.gif) no-repeat ;
+    position: absolute;
+    top: 0%;
+    left: 50px;
+}
+
+ #linha-branca-direita {
+	width: 511px;
+    height: 0px;
+    background: url(images/bola2.gif) no-repeat;
+    position: absolute;
+    top: 2%;
+    left: 1px;
+}
+
+/* pokemons */
+
+.espaco-pokemon {
+bottom: 36%;
+position: absolute;
+width: 250px;
+height: 250px;
+left: 10%;
+}
+
+#pokemon-rodada {	
+	background-size: 100%;
+	width: 100%;
+	height: 0%;
+	opacity: 0;
+}
+
+#squirtle {
+	background: url(images/Pokemons/squirtle-off.png);
+	background-size: 100%;
+}
+
+#charmander {
+	background: url(images/Pokemons/charmander-off.png);
+	background-size: 100%;
+}
+
+#pikachu {
+	background: url(images/Pokemons/pikachu-off.png);
+	background-size: 100%;
+}
+
+#bulbassauro {
+	background: url(images/Pokemons/bulbassauro-off.png);
+	background-size: 100%;
+}
+
+#squirtleOn {
+	background: url(images/Pokemons/squirtle-on.png);
+	background-size: 100%;
+}
+
+#charmanderOn {
+	background: url(images/Pokemons/charmander-on.png);
+	background-size: 100%;
+}
+
+#pikachuOn {
+	background: url(images/Pokemons/pikachu-on.png);
+	background-size: 100%;
+}
+
+#bulbassauroOn {
+	background: url(images/Pokemons/bulbassauro-on.png);
+	background-size: 100%;
+}
+
+#bulbassaurogif {
+	background: url(images/Pokemons/teste/bulbassaurogif.gif) no-repeat;
+	background-size: 100%;
+}
+
+#charmandergif {
+	background: url(images/Pokemons/teste/charmandergif.gif) no-repeat;
+	background-size: 100%;
+}
+
+#pikachugif {
+	background: url(images/Pokemons/teste/pikachugif.gif) no-repeat;
+	background-size: 100%;
+}
+
+#squirtlegif {
+	left: 29%;
+	background: url(images/Pokemons/teste/squirtlegif.gif) no-repeat;
+	background-size: 100%;
+}
+

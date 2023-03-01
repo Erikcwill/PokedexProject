@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+	<title>Projeto Pokedex</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="pokemons.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link href="pokedex.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	
+</head>
+	<body>
+		
+		<section class="nuvens">
+			<div id="nuvem-baixo"></div>
+			<div id="nuvem-cima"></div>
+			<div id="bloco"></div>
+		</section>
+				 
+		<section class="topo">	
+			<div id="header"></div>	
+			<div id="whos">
+				<img src="images/witpk.svg" alt="Quem é esse pokemon!?">
+			</div>			
+		</section>
+			
+		<section class="pokedex">
+			<input id="botao-reset" type="image" src="images/reset.svg"disabled="true">
+			<input id="botao-iniciar" type="image" src="images/iniciar.svg">
+			
+			<div class="visor-esquerdo-box">				
+				<div id="fundotela"></div>
+				<div id="explosao"></div>
+				<div id="poke-logo"></div>
+				<div id="tela-esquerda-desligado"></div>
+				<div class="espaco-pokemon">
+					<div class="pokemon-rodada"></div>
+				</div>
+				<div class="animacao-iniciar">
+					<div id="linha-branca"></div>
+				</div>
+				<div id="visor-esquerdo"></div>	
+				
+				
+			</div>
+
+			<input id="botao-som" type="image" src="images/botao-som.svg" disabled="true">
+
+			<div class="visor-direito-box">	
+					
+				<div class="pokedex-infos">
+					<div id="lista-opcoes">
+						
+					<div id="pokes">
+						<img id="poke1" src="images/pokepixel.png" alt="pokepixel">
+						<img id="poke2" src="images/pokepixel.png" alt="pokepixel">
+						<img id="poke3" src="images/pokepixel.png" alt="pokepixel">
+						<img id="poke4" src="images/pokepixel.png" alt="pokepixel">
+					</div>
+					</div>										
+				<div id="tela-direita-desligada"></div>
+				<div id="linha-branca-direita"></div>				
+				<div id="visor-direito"></div>
+				<div class="pokegif"></div>
+				<div class="certo"></div>
+				<div class="errado"></div>
+				<div class="novo-jogo"><h1>JOGAR DE NOVO?</h1></div>
+				<div class="nome-certo"><h2>CERTO</h2></div>
+				<div class="nome-errado"><h3>ERRADO</h3></div>
+				<section class="tabela-pokemon">
+					<div id="pokezinho">squirtle</div>
+					<div id="pokezinho">bulbassauro</div>
+					<div id="pokezinho">charmander</div>
+					<div id="pokezinho">pikachu</div>
+				</section>	
+				
+															
+			</div>			
+		</section>
+		
+		
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/sons.js"></script>
+		<script src="js/jogo.js"></script>
+		<script src="js/principal.js"></script>
+		<script src="js/botoes.js"></script>
+	</body>
+</html>
+
